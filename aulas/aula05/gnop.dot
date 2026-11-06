@@ -1,0 +1,14 @@
+graph GNOP{
+    1 [shape="circle"]
+    2 [shape="circle"]
+    3 [shape="circle"]
+    A [shape="circle"]
+    B [shape="circle"]
+    C [shape="circle"]
+    A -- 1
+    A -- 2
+    B -- 2
+    B -- 3
+    C -- 1
+    C -- 3
+}
